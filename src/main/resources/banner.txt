@@ -1,0 +1,8 @@
+${AnsiColor.BLUE}  _____ ${AnsiColor.DEFAULT}           _              ${AnsiColor.BLUE}  ____  ${AnsiColor.DEFAULT}      _
+${AnsiColor.BLUE} / ____|${AnsiColor.DEFAULT}          (_)             ${AnsiColor.BLUE} / __ \ ${AnsiColor.DEFAULT}     (_)
+${AnsiColor.BLUE}| (___  ${AnsiColor.DEFAULT}_ __  _ __ _ _ __   __ _  ${AnsiColor.BLUE}| |  | |${AnsiColor.DEFAULT}_   _ _ ____
+${AnsiColor.BLUE} \___ \${AnsiColor.DEFAULT}| '_ \| '__| | '_ \ / _` | ${AnsiColor.BLUE}| |  | |${AnsiColor.DEFAULT} | | | |_  /
+${AnsiColor.BLUE} ____) |${AnsiColor.DEFAULT} |_) | |  | | | | | (_| | ${AnsiColor.BLUE}| |__| |${AnsiColor.DEFAULT} |_| | |/ /
+${AnsiColor.BLUE}|_____/${AnsiColor.DEFAULT}| .__/|_|  |_|_| |_|\__, | ${AnsiColor.BLUE} \___\_\${AnsiColor.DEFAULT}\__,_|_/___|
+${AnsiColor.BLUE}       ${AnsiColor.DEFAULT}| |                  __/ |
+${AnsiColor.BLUE}       ${AnsiColor.DEFAULT}|_|                 |___/

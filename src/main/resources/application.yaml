@@ -1,3 +1,11 @@
+
+spring:
+  main:
+    log-startup-info: false
+  output:
+    ansi:
+      enabled: ALWAYS
+
 spring-quiz:
   title: "Тест по Spring Framework"
 
