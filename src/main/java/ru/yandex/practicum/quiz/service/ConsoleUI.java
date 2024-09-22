@@ -1,5 +1,6 @@
 package ru.yandex.practicum.quiz.service;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import ru.yandex.practicum.quiz.config.QuizConfig;
 import ru.yandex.practicum.quiz.model.Question;
@@ -14,7 +15,8 @@ public class ConsoleUI {
     private final QuizLog quizLogger;
     private final List<Question> questions;
 
-    public ConsoleUI(QuizConfig quizConfig) {
+    public ConsoleUI(@Value("${spring-quiz.title:\"Неназванный тест\"}") String title,
+                     QuizConfig quizConfig) {
         this.questions = quizConfig.getQuestions();
         this.input = new Scanner(System.in);
         this.quizLogger = new QuizLog(questions.size());

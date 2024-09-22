@@ -4,10 +4,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import ru.yandex.practicum.quiz.model.QuizLog;
 import ru.yandex.practicum.quiz.service.ConsoleUI;
 import ru.yandex.practicum.quiz.service.ReportGenerator;
 
+@ConfigurationPropertiesScan
 @SpringBootApplication
 @RequiredArgsConstructor
 public class QuizApp implements CommandLineRunner {

@@ -1,0 +1,22 @@
+spring-quiz:
+  title: "Тест по Spring Framework"
+
+  # spring-quiz.report — настройки отчёта
+  report:
+    # spring-quiz.report.enabled — нужно ли формировать отчёт
+    enabled: true
+    # spring-quiz.report.mode — режим формирования отчёта;
+    # может иметь одно из двух значений:
+    # verbose — формировать расширенный отчёт
+    # concise — формировать сокращённый отчёт
+    mode: "verbose"
+    # spring-quiz.report.output — настройки вывода отчёта
+    output:
+      # spring-quiz.report.output.mode — режим вывода отчёта;
+      # может иметь одно из двух значений:
+      # console — вывод отчёта в консоль
+      # file — вывод отчёта в файл
+      mode: "console"
+      # spring-quiz.report.output.path — путь к файлу,
+      # в который необходимо записать данные отчёта
+      path: "./quiz-result.txt"
